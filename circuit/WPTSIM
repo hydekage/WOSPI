@@ -1,0 +1,12 @@
+* C:\Users\sabri\OneDrive\Documents\HIBAH PENELITIAN\HIBAH DU 2024\circuit\WPTSIM.asc
+V1 N001 0 SINE(0 5 {FR}) AC 1
+CT N001 N002 {CT}
+LT P001 0 1
+R1 N002 P001 0.1
+LR 0 P002 1
+R2 N003 P002 0.1
+CR N004 N003 {CR}
+RB N004 0 10
+K LT LR {KV}
+.backanno
+.end

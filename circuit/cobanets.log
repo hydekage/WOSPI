@@ -1,0 +1,21 @@
+Questionable use of curly braces in "v1 n001 0 sine(0 5 {fr}) ac 1"
+    Error: undefined symbol in: "[fr]"
+Questionable use of curly braces in "ct n001 n002 {ct}"
+    Error: undefined symbol in: "[ct]"
+Questionable use of curly braces in "cr n004 n003 {cr}"
+    Error: undefined symbol in: "[cr]"
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\sabri\OneDrive\Documents\HIBAH PENELITIAN\HIBAH DU 2024\circuit\cobanets.asc
+Start Time: Sun May 19 21:22:01 2024
+Error on line 2 : v1 n001 0 sine(0 5 (fr)) ac 1
+	 Unknown parameter "fr"
+Error on line 3 : ct n001 n002 (ct)
+	 Unable to find definition of model "ct"
+Error on line 8 : cr n004 n003 (cr)
+	 Unable to find definition of model "cr"
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Fatal Error: Missing capacitance value for "ct"
